@@ -17,7 +17,10 @@ var summary = new Schema({
         type: String,
         default: ""
     },
-    "references": []
+    "references":{
+        type: String,
+        default: ""
+    }
 
 })
 module.exports = mongoose.model('summary', summary);
